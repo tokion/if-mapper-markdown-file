@@ -2,7 +2,8 @@
 
 ## INTERACTIVE FICTION AND TEXTADVENTURE AND INFOCOM MAPPING SHEET
 * Use this sheet in your favourite text editor, with this settings:
-* 1. Wordwrap Off 2. Overwrite mode on (VIM example: ":set nowrap" AND "R" for Replace-mode)
+  * Wordwrap Off (VIM example: ":set nowrap")
+  * Overwrite mode (VIM example: "R" for Replace-mode)
 * Works for mobile too! (Suggestion for Android: "DroidEdit" App with Drive Sync)
 * This is basically a modified version of the ifm config file (http://ifm.readthedocs.io/)
 * Works for me - maybe not for you - Works great with smaller IF with a clear and static map structure.
