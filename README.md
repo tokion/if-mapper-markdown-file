@@ -5,6 +5,7 @@
 ## INTERACTIVE FICTION MAPPING SHEET
 * A helpful markdown template for mapping interactive fiction or textadventure or infocom games in my text editor
 * Use this sheet in your favourite text editor, with this settings:
+  * Check that your text editor has fixed width font
   * Wordwrap Off (VIM example: ":set nowrap")
   * Overwrite mode (VIM example: "R" for Replace-mode)
 * Works for mobile too! (Suggestion for Android: "DroidEdit" App with Drive Sync)
