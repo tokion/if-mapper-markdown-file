@@ -68,7 +68,8 @@ It is a grid of spaces surrounded by periods initially.
    * *<* = connect two rooms in-out, laid out west-east
    * *>* = connect two rooms out-in, laid out east-west
 
-## EXAMPLE IF COMMANDS (Each game has differences, but these commands are the most common):
+## EXAMPLE IF COMMANDS 
+(Each game has differences, but these commands are the most common):
 
   * FIRST COMMANDS AFTER EXERY STARTUP: 1. Help, 2. X self, 3. Inventory
   * FILE commands: Save, Restore, Quit, About, Info, Help, Undo
