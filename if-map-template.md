@@ -1,19 +1,13 @@
 # YOUR STORY: ___ | YOUR NAME: _____ | DATE: ___ | 
-*INTERACTIVE FICTION AND TEXTADVENTURE AND INFOCOM MAPPING SHEET*
+## INTERACTIVE FICTION AND TEXTADVENTURE AND INFOCOM MAPPING SHEET*
+* *Use this sheet in your favourite text editor, with this settings:*
+* *1. Wordwrap Off 2. Overwrite mode on (VIM example: ":set nowrap" AND "R" for Replace-mode)*
+* *Works for mobile too! (Suggestion for Android: "DroidEdit" App with Drive Sync)*
+* *This is basically a modified version of the ifm config file (http://ifm.readthedocs.io/)*
+* *Works great with smaller IF with a clear and static map structure - Works for me - maybe not for you
+* *Have fun!*
 
-*Use this sheet in your favourite text editor, with this settings:*
-
-*1. Wordwrap Off 2. Overwrite mode on (VIM example: ":set nowrap" AND "R" for Replace-mode)*
-
-*Works for mobile too! (Suggestion for Android: "DroidEdit" App with Drive Sync)*
-
-*This is basically a modified version of the ifm config file (http://ifm.readthedocs.io/)*
-
-*Works great with smaller IF with a clear and static map structure - Works for me - maybe not for you
-
-*Have fun!*
-
-# THIS IS A MAP EXAMPLE (5-Letter-Room-Names)
+## THIS IS A MAP EXAMPLE (5-Letter-Room-Names)
 
     .............................................................................................................
     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .
@@ -43,38 +37,39 @@
 
 
 
-# ROOM-DESCRIPTION AND ITEMS
+## ROOM-DESCRIPTION AND ITEMS
 
  * *** START ROOM: ____
  * 
 
-# TODOS
+## TODOS-LIST
 
  * ___
 
-# SOLUTION
+## LOG OF SOLUTION-STEPS
 
  * ____
 
-# RULES FOR MAPPING
+# HELP SECTION
+
+## RULES FOR MAPPING
 It is a grid of spaces surrounded by periods initially. 
 
  * Spaces are grid squares where a room can be. 
  * The periods are places for room connectors. 
  * All rooms should be connected somehow.
  * Rules for lines:
+   * -         connect rooms west-east
+   * |         connect rooms north-south
+   * \         connect rooms northwest-southeast
+   * /         connect rooms northeast-southwest
+   * X or x      connect two pairs of rooms nw-se and ne-sw
+   * ^         connect two rooms in-out, laid out north-south
+   * v or V      connect two rooms out-in, laid out south-north
+   * <         connect two rooms in-out, laid out west-east
+   * >         connect two rooms out-in, laid out east-west
 
-    -         connect rooms west-east
-    |         connect rooms north-south
-    \         connect rooms northwest-southeast
-    /         connect rooms northeast-southwest
-    X or x      connect two pairs of rooms nw-se and ne-sw
-    ^         connect two rooms in-out, laid out north-south
-    v or V      connect two rooms out-in, laid out south-north
-    <         connect two rooms in-out, laid out west-east
-    >         connect two rooms out-in, laid out east-west
-_____________________________________________________________________________
-# BASIC IF COMMANDS (Each game has differences, but these commands are the most common):
+## EXAMPLE IF COMMANDS (Each game has differences, but these commands are the most common):
 
   * FIRST COMMANDS AFTER EXERY STARTUP: 1. Help, 2. X self, 3. Inventory
   * FILE commands: Save, Restore, Quit, About, Info, Help, Undo
@@ -87,7 +82,6 @@ _____________________________________________________________________________
   * Or: LISTEN, SLEEP, WAKE UP, JUMP, PRAY, CURSE, SING
   * NPC-Interaction: TALK TO name, ASK name ABOUT something, TELL name ABOUT something, GIVE something TO name, SHOW something TO name
 
-_____________________________________________________________________________
 # ALTERNATIVE MAP LAYOUT TEMPLATES 
 
  * (TO USE: JUST COPY & PASTE, PASTE, PASTE,....):
