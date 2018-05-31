@@ -30,7 +30,7 @@
     .............................................|...............................................................
     .     .     .     .     .     .     .     .ROOM1.     .     .     .     .     .     .     .     .     .
     .............................................|..............................................................
-    .     .     .     .     .     .     .     .START-BAR  .     .     .     .     .     .     .     .     .     .
+    .     .     .     .     .     .     .     .START-ROOM3.     .     .     .     .     .     .     .     .     .
     .............................................................................................................
     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .
     .............................................................................................................
@@ -59,15 +59,15 @@ It is a grid of spaces surrounded by periods initially.
  * The periods are places for room connectors. 
  * All rooms should be connected somehow.
  * Rules for lines:
-   * -         connect rooms west-east
-   * |         connect rooms north-south
-   * \         connect rooms northwest-southeast
-   * /         connect rooms northeast-southwest
-   * X or x      connect two pairs of rooms nw-se and ne-sw
-   * ^         connect two rooms in-out, laid out north-south
-   * v or V      connect two rooms out-in, laid out south-north
-   * <         connect two rooms in-out, laid out west-east
-   * >         connect two rooms out-in, laid out east-west
+   * *-* = connect rooms west-east
+   * *|* = connect rooms north-south
+   * *\* = connect rooms northwest-southeast
+   * */* = connect rooms northeast-southwest
+   * *X* = connect two pairs of rooms nw-se and ne-sw
+   * *^* = connect two rooms in-out, laid out north-south
+   * *V* = connect two rooms out-in, laid out south-north
+   * *<* = connect two rooms in-out, laid out west-east
+   * *>* = connect two rooms out-in, laid out east-west
 
 ## EXAMPLE IF COMMANDS (Each game has differences, but these commands are the most common):
 
